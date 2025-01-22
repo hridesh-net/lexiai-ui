@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ["./src/**/*.{html,js}"],
   darkMode: 'class', // Enable dark mode
   theme: {
     extend: {
       colors: {
-        primary: '#1DA1F2',
+        primary: '#062b41',
         secondary: '#14171A',
         accent: '#F5F8FA',
       },
